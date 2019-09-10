@@ -36,7 +36,12 @@
   - [ES6解构和Promise](ES6)
 
 - 框架踩坑踩踩踩
+  
   - [VUE页面渲染问题](VUE页面渲染问题)
+  
+  - [Gogs搭建Web钩子](Gogs)
+  
+    
 
 
 
