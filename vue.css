@@ -75,7 +75,8 @@ body {
 }
 
 img {
-    max-width: 100%
+    max-width: 100%;
+    box-shadow: rgba(0,0,0,0.5) 0 0.625rem 1.125rem; 
 }
 
 a[disabled] {
