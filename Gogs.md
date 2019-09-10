@@ -49,7 +49,7 @@ http://19.168.0.1:8888/hook?access_key=123&param=ko.xiaohuwei.cn
 
 ![](https://cdn.xiaohuwei.cn/2019/09/92304701.png)
 
-![](https://cdn.xiaohuwei.cn/2019/09/1959049157.png)
+![](https://cdn.xiaohuwei.cn/2019/09/2100959003.png)
 
 网站根目录已经完成更新了～
 
