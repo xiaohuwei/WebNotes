@@ -39,10 +39,9 @@
   
   - [VUE页面渲染问题](VUE页面渲染问题)
   
-  - [Gogs搭建Web钩子](Gogs)
-  
     
 
-
+- Git相关
+  - [Gogs搭建Web钩子](Gogs)
 
 
