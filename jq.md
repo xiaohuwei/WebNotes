@@ -1,6 +1,6 @@
 ##		JQuery
 
-> jQuery是一套跨浏览器的JavaScript库，简化HTML与JavaScript之间的操作。[1]由约翰·雷西格（John Resig）在2006年1月的BarCamp NYC上发布第一个版本。当前是由Dave Methvin领导的开发团队进行开发。全球前10,000个访问最高的网站中，有65%使用了jQuery，是当前最受欢迎的JavaScript库。
+!>jQuery是一套跨浏览器的JavaScript库，简化HTML与JavaScript之间的操作。[1]由约翰·雷西格（John Resig）在2006年1月的BarCamp NYC上发布第一个版本。当前是由Dave Methvin领导的开发团队进行开发。全球前10,000个访问最高的网站中，有65%使用了jQuery，是当前最受欢迎的JavaScript库。
 
 ##	jq操作dom
 
@@ -17,6 +17,7 @@ $(".memeda").each(function(){
 
 //遍历所有元素
 //$(this)------>每一个遍历元素
+
 })
 ~~~
 
