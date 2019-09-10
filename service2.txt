@@ -1,0 +1,12 @@
+
+#!/usr/bin/expect -f
+  set user root
+  set host 139.9.209.218
+  set password Xx123456
+  set timeout -1
+ 
+  spawn ssh $user@$host
+  expect "*assword:*"
+  send "$password\r"
+  interact
+  expect eof
