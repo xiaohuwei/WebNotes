@@ -35,7 +35,7 @@ fi
 http://19.168.0.1:8888/hook?access_key=123&param=ko.xiaohuwei.cn
 ~~~
 
-其中ip换成你的面板地址 `access_key ` 换成宝塔给你的`key` ，`param`  换成项目目录名字，保存下来后面要用。
+?>其中ip换成你的面板地址 `access_key ` 换成宝塔给你的`key` ，`param`  换成项目目录名字，保存下来后面要用。
 
 然后我们需要手动清空`ko.xiaohuwei.cn`根目录下的所有文件，连接服务器，把你的仓库克隆过来。
 
