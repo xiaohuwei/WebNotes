@@ -53,5 +53,5 @@ http://19.168.0.1:8888/hook?access_key=123&param=ko.xiaohuwei.cn
 
 网站根目录已经完成更新了～
 
-完结。
+完结啦。
 
