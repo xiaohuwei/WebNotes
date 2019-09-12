@@ -71,27 +71,27 @@ sid int unsigned not null
 
 > `select * from class,stus  where class.cid=stus.cid；`//查询所有学生
 
-![](https://ws3.sinaimg.cn/large/005BYqpggy1g232x9bbpij30k3070aab.jpg#mirages-width=1334&mirages-height=750&mirages-cdn-type=1&shadow)
+![](https://blog.xiaohuwei.cn/sina.php?url=https://ws3.sinaimg.cn/large/005BYqpggy1g232x9bbpij30k3070aab.jpg)
 
 > `select * from class,stus where class.cid=stus.cid and  stus.cid=5；`//查询5班的人
 
-![](https://ws3.sinaimg.cn/large/005BYqpgly1g23368t7l6j30ke04p753.jpg#mirages-width=1334&mirages-height=750&mirages-cdn-type=1&shadow)
+![](https://blog.xiaohuwei.cn/sina.php?url=https://ws3.sinaimg.cn/large/005BYqpgly1g23368t7l6j30ke04p753.jpg)
 
 > `select count(1) from stus group by sex;`//男女各有多少人
 
-![](https://ws3.sinaimg.cn/large/005BYqpgly1g233d76sgrj30dx04l74o.jpg#mirages-width=1334&mirages-height=750&mirages-cdn-type=1&shadow)
+![](https://blog.xiaohuwei.cn/sina.php?url=https://ws3.sinaimg.cn/large/005BYqpgly1g233d76sgrj30dx04l74o.jpg)
 
 > `select count(1) from stus group by cid;`//每个班多少人
 
-![](https://ws3.sinaimg.cn/large/005BYqpgly1g233fjhpukj30fj051di2.jpg#mirages-width=1334&mirages-height=750&mirages-cdn-type=1&shadow)
+![](https://blog.xiaohuwei.cn/sina.php?url=https://ws3.sinaimg.cn/large/005BYqpgly1g233fjhpukj30fj051di2.jpg)
 
 > `select cname,count(1)sum from class,stus where class.cid=stus.cid group by stus.cid;`//带班级号
 
-![](https://ws3.sinaimg.cn/large/005BYqpggy1g233vdirgwj30q4055q48.jpg#mirages-width=1334&mirages-height=750&mirages-cdn-type=1&shadow)
+![](https://blog.xiaohuwei.cn/sina.php?url=https://ws3.sinaimg.cn/large/005BYqpggy1g233vdirgwj30q4055q48.jpg#mirages-width=1334&mirages-height=750&mirages-cdn-type=1&shadow)
 
 > `select * from stus where score=(select max(score)from stus);`//分数最高的学生
 
-![](https://ws3.sinaimg.cn/large/005BYqpggy1g2343dst48j30kg05hjue.jpg#mirages-width=1334&mirages-height=750&mirages-cdn-type=1&shadow)
+![](https://blog.xiaohuwei.cn/sina.php?url=https://ws3.sinaimg.cn/large/005BYqpggy1g2343dst48j30kg05hjue.jpg#mirages-width=1334&mirages-height=750&mirages-cdn-type=1&shadow)
 
 ------------------------------
 
@@ -113,7 +113,7 @@ select * from stus where score=(select max(score)from stus);
 
 ![](https://ws3.sinaimg.cn/large/005BYqpgly1g234fb50trj30ca00oaa1.jpg#mirages-width=1334&mirages-height=750&mirages-cdn-type=1&shadow)
 
-![](https://ws3.sinaimg.cn/large/005BYqpggy1g234j853rdj30js05nwem.jpg#mirages-width=1334&mirages-height=750&mirages-cdn-type=1&shadow)
+![](https://blog.xiaohuwei.cn/sina.php?url=https://ws3.sinaimg.cn/large/005BYqpggy1g234j853rdj30js05nwem.jpg#mirages-width=1334&mirages-height=750&mirages-cdn-type=1&shadow)
 
 ----------
 
@@ -132,7 +132,7 @@ select * from class right join stus on class.cid=stus.cid ;
 
 ###		差异效果图
 
-![](https://ws3.sinaimg.cn/large/005BYqpgly1g2353zs0wfj30kd0ejq4q.jpg#mirages-width=1334&mirages-height=750&mirages-cdn-type=1&shadow)
+![](https://blog.xiaohuwei.cn/sina.php?url=https://ws3.sinaimg.cn/large/005BYqpgly1g2353zs0wfj30kd0ejq4q.jpg#mirages-width=1334&mirages-height=750&mirages-cdn-type=1&shadow)
 
 ----------
 
@@ -155,7 +155,7 @@ select * from class right join stus on class.cid=stus.cid ;
 ####	差异效果图
 
 
-![](https://ws3.sinaimg.cn/large/005BYqpggy1g235p9o1cij30jw0beaab.jpg#mirages-width=1334&mirages-height=750&mirages-cdn-type=1&shadow)
+![](https://blog.xiaohuwei.cn/sina.php?url=https://ws3.sinaimg.cn/large/005BYqpggy1g235p9o1cij30jw0beaab.jpg#mirages-width=1334&mirages-height=750&mirages-cdn-type=1&shadow)
 
 -------------
 
@@ -178,7 +178,7 @@ hid int unique
 
 > `select * from has join wife on has.hid=wife.wid;` 通过丈夫找到妻子
 
-![](https://ws3.sinaimg.cn/large/005BYqpggy1g236blnpiqj30nk09jq2y.jpg#mirages-width=1334&mirages-height=750&mirages-cdn-type=1&shadow)
+![](https://blog.xiaohuwei.cn/sina.php?url=https://ws3.sinaimg.cn/large/005BYqpggy1g236blnpiqj30nk09jq2y.jpg#mirages-width=1334&mirages-height=750&mirages-cdn-type=1&shadow)
 
 ----------
 ###		扩展
@@ -190,4 +190,3 @@ hid int unique
 > `select cid,max(score) sum from stus group by cid;`求每个班的最高分
 
 ![https://cdn.xiaohuwei.cn/2019/04/2064710315.png](https://cdn.xiaohuwei.cn/2019/04/2064710315.png#mirages-width=847&mirages-height=209&mirages-cdn-type=1)
-[hide]我爱你[/hide]
