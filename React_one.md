@@ -11,9 +11,10 @@ npm start //启动
 
 ?>下面是`React-todoList` 的例子
 
-## `./src/index.js`  入口文件
+##  入口文件
 
 ```js
+//./src/indexx.js
 import React from 'react'
 import ReactDOM from 'react-dom'//ReactDOM语法支持
 import App from './App'//自定义组件 必须大写开头
@@ -23,9 +24,10 @@ import Xiaojiejie from './Xiaojiejie'
 ReactDOM.render(<Xiaojiejie />,document.getElementById('root'))
 ```
 
-## `./src/App.js`  App组件
+##  爱啪啪组件
 
 ~~~js
+//./src/App.js
 import React,{Component} from 'react'//es6解构
 //等价于下面两行
 // import React from 'react'
@@ -48,9 +50,10 @@ import React,{Component} from 'react'//es6解构
  export default App
 ~~~
 
-##   `./src/Xiaojiejie.js`  Xiaojiejie组件
+##    小姐姐组件
 
 ```js
+//./src/Xiaojiejie.js
 //Fragment 可以代替组件最外层div
 import React,{Component,Fragment} from 'react'
 import './Xiaojiejie.css'
@@ -114,9 +117,10 @@ class Xiaojiejie extends Component{
 export default Xiaojiejie
 ```
 
-## `./src/Xiaojiejie.css`  Xiaojiejie组件的样式文件
+## 小姐姐组件样式文件
 
 ~~~css
+/*./src/Xiaojiejie.css*/
 ul li{
     list-style: none;
 }
