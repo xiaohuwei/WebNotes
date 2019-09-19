@@ -40,4 +40,5 @@
   - [Gogs搭建Web钩子](Gogs)
 - React
   - [React学习第一天笔记](React_one)
+  - [React学习第二天笔记](React_two)
 
