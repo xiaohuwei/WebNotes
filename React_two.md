@@ -214,7 +214,7 @@ class XiaojiejieItem  extends Component { //cc
     }
 
     handleClick(){
-        console.log('撩拨了小姐姐')
+        console.log('111')
     }
     
 }
@@ -222,7 +222,7 @@ class XiaojiejieItem  extends Component { //cc
 export default XiaojiejieItem;
 ```
 
-这时候进行预览，打开F12，再点击服务菜单项，就会再`console`里显示出"撩拨了小姐姐"的字样。但是`console`里还有一个`warning`警告，这个警告我们见过，就是要求循环时必须设置key值。
+这时候进行预览，打开F12，再点击服务菜单项，就会再`console`里显示出"111"的字样。但是`console`里还有一个`warning`警告，这个警告我们见过，就是要求循环时必须设置key值。
 
 修改`XiaoJieJie`组件的`render`代码如下：
 
