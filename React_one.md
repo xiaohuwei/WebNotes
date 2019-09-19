@@ -69,14 +69,17 @@ class Xiaojiejie extends Component{
         return (
             <Fragment>
                 <div>
-                    <input value={this.state.inputValue} onChange={this.inputChange.bind(this)}/> 
+                    {/* 第一次写注释 */}
+                    <label htmlFor='memeda'>点击聚焦添加服务框</label>
+                    <input id='memeda' className='input' value={this.state.inputValue} onChange={this.inputChange.bind(this)}/> 
                     <button onClick={this.addList.bind(this)}>增加服务</button>
                 </div>
                     <ul>
+                        {/* dangerouslySetInnerHTML={{__html:v}} 使用Html语法解析list内容  li标签就可以不写入内容了*/}
                         {
-                            this.state.list.map((v,i)=>{
-                                return <li key={i+v} onClick={this.deleteItem.bind(this,i)}>
-                                               {v} 
+                            this.state.list.map((v,i)=>{ 
+                                return <li key={i+v} dangerouslySetInnerHTML={{__html:v}} onClick={this.deleteItem.bind(this,i)}>
+                                             
                                        </li>
                             })
                         }
@@ -121,9 +124,8 @@ export default Xiaojiejie
 
 ~~~css
 /*./src/Xiaojiejie.css*/
-ul li{
-    list-style: none;
-}
+ ul li{list-style: none;}
+.input{border:3px solid #ae7000}
 ~~~
 
 
