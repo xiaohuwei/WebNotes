@@ -35,6 +35,7 @@
 - 框架踩坑踩踩踩
   
   - [VUE页面渲染问题](VUE页面渲染问题)
+  - [Vue使用锚链接解决方案](Vue_one)
 - Git的一些事情
   - [Gogs搭建Web钩子](Gogs)
 - React
