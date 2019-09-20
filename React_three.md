@@ -217,7 +217,7 @@ XiaojiejieItem.defaultProps = {
 
 ## React生命周期
 
-!>`React`的生命周期是非常重要的知识点!`React`的生命周期是非常重要的知识点!`React`的生命周期是非常重要的知识点!
+!> ** `React`的生命周期是非常重要的知识点! **
 
 ![img](https://cdn.xiaohuwei.cn/2019/09/382606137.jpg)
 
